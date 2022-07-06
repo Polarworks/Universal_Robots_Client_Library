@@ -8,6 +8,7 @@ if(NOT CMAKE_CONFIGURATION_TYPES AND NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE RelWithDebInfo)
 endif()
 
+add_definitions(-D__STDC_FORMAT_MACROS)
 
 ##
 ## Check C++11 support / enable global pedantic and Wall
